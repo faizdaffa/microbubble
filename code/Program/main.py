@@ -6,7 +6,7 @@ print(torch.cuda.get_device_name())
 print(torch.__version__)
 print(torch.version.cuda)
 # Load a model
-model = YOLO("yolov8n.yaml")  # build a new model from scratch
+model = YOLO("yolov8x.yaml")  # build a new model from scratch
 model.to('cuda')
 # Use the model
 
